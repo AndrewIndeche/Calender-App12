@@ -1,0 +1,133 @@
+<app-admin-navbar></app-admin-navbar>
+<!-- Wrapper -->
+<div id="wrapper">    
+    <!-- Dashboard -->
+    <div id="dashboard">
+    
+        <!-- Navigation
+        ================================================== -->
+    
+        <!-- Responsive Navigation Trigger -->
+        <a routerLink="#" class="dashboard-responsive-nav-trigger"><i class="fa fa-reorder"></i> Dashboard Navigation</a>
+    
+        <div class="dashboard-nav" style="position:fixed;margin-top:5.6em;top:0">
+            <div class="dashboard-nav-inner">
+    
+                <ul data-submenu-title="Main">
+                    <li class="active"><a routerLink="/admindashboard"><i class="sl sl-icon-settings"></i> Dashboard</a></li>
+                    <li><a routerLink="/adminmessageboard"><i class="sl sl-icon-envelope-open"></i> Messages <span class="nav-tag messages">2</span></a></li>
+                </ul>
+                
+                <ul data-submenu-title="Calender Entries">
+                    <li><a><i class="sl sl-icon-layers"></i> Calender Entries</a>
+                        <ul>
+                            <li><a href="dashboard-my-listings.html">Active <span class="nav-tag green">6</span></a></li>
+                            <li><a href="dashboard-my-listings.html">Pending <span class="nav-tag yellow">1</span></a></li>
+                            <li><a href="dashboard-my-listings.html">Expired <span class="nav-tag red">2</span></a></li>
+                        </ul>	
+                    </li>
+                </ul>	
+    
+                <ul data-submenu-title="Account">
+                    <li><a routerLink="/profile"><i class="sl sl-icon-user"></i> My Profile</a></li>
+                    <li><a routerLink=""><i class="sl sl-icon-power"></i> Logout</a></li>
+                </ul>
+                
+            </div>
+        </div>
+        <!-- Dashboard / Ends -->
+    
+    
+        <!-- Content
+        ================================================== -->
+        <div class="dashboard-content">
+    
+            <!-- Titlebar -->
+            <div id="titlebar">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Welcome to the Admin Dashboard, John!</h2>
+                        <!-- Breadcrumbs -->
+                        <nav id="breadcrumbs">
+                            <ul>
+                                <li><a routerLink="">Home</a></li>
+                                <li>Dashboard</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Notice -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="notification success closeable margin-bottom-30">
+                        <p><strong>John Doe</strong> has added an entry to the calender!</p>
+                        <a class="close" href="#"></a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Content -->
+            <div class="row">
+    
+                <!-- Item -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="dashboard-stat color-1">
+                        <div class="dashboard-stat-content"><h4>6</h4> <span>Entries Today</span></div>
+                        <div class="dashboard-stat-icon"><i class="im im-icon-Map2"></i></div>
+                    </div>
+                </div>
+    
+                <!-- Item -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="dashboard-stat color-2">
+                        <div class="dashboard-stat-content"><h4>726</h4> <span>Total Entries</span></div>
+                        <div class="dashboard-stat-icon"><i class="im im-icon-Line-Chart"></i></div>
+                    </div>
+                </div>
+    
+                
+                <!-- Item -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="dashboard-stat color-3">
+                        <div class="dashboard-stat-content"><h4>10</h4> <span>Entries this Week</span></div>
+                        <div class="dashboard-stat-icon"><i class="im im-icon-Add-UserStar"></i></div>
+                    </div>
+                </div>
+                    </div>
+    
+    
+            <div class="row">
+                
+                <!-- Recent Activity -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="dashboard-list-box with-icons margin-top-20">
+                        <h4>Recent Activities</h4>
+                        <ul>
+                            <li>
+                                <i class="list-box-icon sl sl-icon-layers"></i> John Doe checked in at <strong><a href="#">14:28 hrs</a>Jun 18th 2022</strong> !
+                                <a href="#" class="close-list-item"><i class="fa fa-close"></i></a>
+                            </li>
+        
+                            <li>
+                                <i class="list-box-icon sl sl-icon-envelope-open"></i> Kathy Brown left <strong><a href="#">a Message</a></strong> on Jun 18th 2022
+                                <a href="#" class="close-list-item"><i class="fa fa-close"></i></a>
+                            </li>
+    
+                            <li>
+                                <i class="list-box-icon sl sl-icon-layers"></i> John Doe checked in at <strong><a href="#">14:28 hrs</a></strong>Jun 18th 2022 !
+                                <a href="#" class="close-list-item"><i class="fa fa-close"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    </div>
+    <!-- Dashboard / End -->
+    
+    
+    </div>
+    <!-- Wrapper / End -->
+    
+    
+

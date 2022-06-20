@@ -1,0 +1,23 @@
+<! code for the whole navbar !>
+<nav class="navbar navbar-expand-lg  nav-bar">
+    <div class="dropdown">
+        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+        <div class="dropdown-content">
+          <a routerLink="admindashboard">Admin Login</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+    <! code for the date and timer icon !>
+    <div class="date" id="datecontainer">
+    <span class="ps-5 pe-1 ms-5"><i class="list-box-icon sl sl-icon-calender fa-2x"></i>
+</span>
+    <span class="date">{{currentDate | date:'EEEE, MMMM d y'}}</span>
+    <span class="ps-4 mb-4 vertical-bar"> </span>
+    <span class="date"> {{currentDate | date:'hh:mm ' }}</span>
+    </div>
+    <div class="next">
+        <i class="fa fa-play fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-pause fa-2x"></i>
+      </div>
+</nav>
